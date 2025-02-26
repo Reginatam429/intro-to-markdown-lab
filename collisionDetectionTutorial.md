@@ -20,7 +20,7 @@ This checks if the actual pixels overlap, much more complex and computationally 
 ## The Choice I made for my Space Cat Shooter Game
 ![AABB example](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVoVbHz79d5kEAHun4OspECpn33uDSfji-kg&s)
 
-I chose to use **Bounding Box Collision Detection (AABB)** for my game since most of my objects used png which tend to be retanglar shaped and for simplicity as my first project attempting this. 
+I chose to use **Bounding Box Collision Detection (AABB)** for my game since most of my objects used png which tend to be retangular shaped and for simplicity as my first project attempting this. 
 
 The idea is that each object has an `x`,`y`, `width`, and `height` attribute. If one rectangle object overlaps another one, you have a collision. 
 
